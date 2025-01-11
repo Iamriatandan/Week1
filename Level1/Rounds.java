@@ -24,7 +24,7 @@ class Rounds{
         input.close();
     }
 
-    // Method to calculate handshakes
+    // Method to calculate rounds
     public  int rounds(int side2,int side1,int side3) {
         int perimeter = side1+side2+side3;
 		 int distance = 5000; // 5km is equals to 5000 meters
