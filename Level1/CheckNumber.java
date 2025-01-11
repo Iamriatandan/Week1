@@ -16,7 +16,7 @@ System.out.println( numbers.typeNumber(number));
         input.close();
     }
 
-    // Method to calculate handshakes
+    // Method to calculate type of number
     public  int typeNumber(int number) {
         if (number<0){
 			 return -1;
